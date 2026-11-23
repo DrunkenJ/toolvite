@@ -15,7 +15,7 @@
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;font-family:var(--font-body);background:var(--cream);color:var(--navy);line-height:1.5;word-break:keep-all;overflow-wrap:break-word}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--navy)}
 a:hover{color:var(--rust)}
 h1,h2,h3,p{margin:0}
