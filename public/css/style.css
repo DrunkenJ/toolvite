@@ -30,10 +30,10 @@ h1,h2,h3,p{margin:0}
 .nav{max-width:1440px;margin:0 auto;height:clamp(88px,5.8vw,112px);padding:0 var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:24px}
 .nav-logo{display:inline-flex;align-items:center;text-decoration:none;min-height:44px}
 .nav-logo img{height:clamp(32px,2.5vw,52px);width:auto}
-.nav-menu{display:flex;gap:40px;align-items:center;font-size:16px;font-weight:500}
+.nav-menu{display:flex;gap:clamp(40px,2.8vw,56px);align-items:center;font-size:clamp(16px,1.1vw,20px);font-weight:500}
 .nav-menu a{text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
 .nav-menu a[aria-current="page"]{color:var(--rust)}
-.nav-menu .btn-buy{padding:0 24px;background:var(--navy);color:var(--cream);border-radius:999px}
+.nav-menu .btn-buy{padding:0 1.5em;background:var(--navy);color:var(--cream);border-radius:999px}
 .nav-menu .btn-buy:hover{background:var(--rust);color:var(--cream)}
 .nav-menu .btn-buy[aria-current="page"]{background:var(--rust);color:var(--cream)}
 .nav-toggle{display:none;width:44px;height:44px;border:0;background:transparent;color:var(--navy);cursor:pointer;padding:10px;border-radius:8px}
