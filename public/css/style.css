@@ -27,9 +27,9 @@ h1,h2,h3,p{margin:0}
 
 /* ---------- Header / Nav ---------- */
 .site-header{position:sticky;top:0;z-index:40;background:var(--cream)}
-.nav{max-width:1440px;margin:0 auto;height:88px;padding:0 var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:24px}
+.nav{max-width:1440px;margin:0 auto;height:clamp(88px,5.8vw,112px);padding:0 var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:24px}
 .nav-logo{display:inline-flex;align-items:center;text-decoration:none;min-height:44px}
-.nav-logo img{height:32px;width:auto}
+.nav-logo img{height:clamp(32px,2.5vw,52px);width:auto}
 .nav-menu{display:flex;gap:40px;align-items:center;font-size:16px;font-weight:500}
 .nav-menu a{text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
 .nav-menu a[aria-current="page"]{color:var(--rust)}
